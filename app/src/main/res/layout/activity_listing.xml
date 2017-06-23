@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_listing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kevan.deep.project.medicalemergencyservices.ListingActivity">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:padding="5dp"
+        android:dividerHeight="10dp"
+        android:divider="@android:color/transparent"
+        android:background="@drawable/shape_list"
+        android:id="@+id/hospital_list">
+    </ListView>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/yes_sign"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:background="@color/light_black"
+            android:gravity="center"
+            android:id="@+id/textView3"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="@string/no_sign"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:background="@color/light_black"
+            android:gravity="center"
+            android:id="@+id/textView"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

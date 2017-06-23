@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_black"
+    tools:context="com.kevan.deep.project.medicalemergencyservices.DetailActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_toolbar"
+        android:background="@color/red1"
+        android:theme="@style/MyToolbar">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:id="@+id/detail_tlbr_tv_hsptl"/>
+    </android.support.v7.widget.Toolbar>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/shape_detail">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="Address"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/activity_textsize"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:id="@+id/textView5" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textSize="@dimen/activity_textsize"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:id="@+id/detail_tv_address" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="Bed Availibility"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/activity_textsize"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:id="@+id/textView8" />
+
+            <TextView
+                android:text="General"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/activity_textsize"
+                android:layout_height="match_parent"
+                android:id="@+id/gen" />
+
+            <TextView
+                android:text="Special"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/activity_textsize"
+                android:layout_height="match_parent"
+                android:id="@+id/textView6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/activity_textsize"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/activity_textsize"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:id="@+id/detail_tv_gbed" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/activity_textsize"
+                android:layout_height="match_parent"
+                android:id="@+id/detail_tv_sbed" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="Phone no"
+                android:layout_width="0dp"
+                android:textSize="@dimen/activity_textsize"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:id="@+id/textView16" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textSize="@dimen/activity_textsize"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:id="@+id/detail_tv_phone" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="Fax NO"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/activity_textsize"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:id="@+id/textView18" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:gravity="center_vertical"
+                android:layout_weight="2"
+                android:textSize="@dimen/activity_textsize"
+                android:layout_height="match_parent"
+                android:id="@+id/detail_tv_fax" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="Email"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/activity_textsize"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:id="@+id/textView19" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:gravity="center_vertical"
+                android:layout_weight="2"
+                android:textSize="@dimen/activity_textsize"
+                android:layout_height="match_parent"
+                android:id="@+id/detail_tv_email" />
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:text="@string/other_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@drawable/ripple"
+                android:id="@+id/btn_otherdetail" />
+        </LinearLayout>
+    </TableLayout>
+</LinearLayout>

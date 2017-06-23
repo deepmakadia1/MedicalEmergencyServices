@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Medical Emergency Services</string>
+    <string name="other_facility">Other Facility</string>
+    <string name="doctor">Doctors</string>
+    <string name="HospitalName">Hospital Name</string>
+    <string name="MedicalEmergencyService">Medical Emergency Service</string>
+    <string name="HospitalSearch">Hospital Search</string>
+    <string name="sendlocation">Send Location</string>
+    <string name="OtherFacility">Other Facility</string>
+    <string name="other_detail">Other Detail</string>
+    <string name="send_cnfrm">Are you sure to send location for emergency??? </string>
+    <string name="cnfrm">Confirm!!!</string>
+    <string name="permisssion">Permission!!!</string>
+    <string name="yes">Yes</string>
+    <string name="no">NO</string>
+    <string name="yes_sign">Y - Bed available</string>
+    <string name="no_sign">N - Bed not available</string>
+    <string name="title">Medical Emergency Services</string>
+    <string name="gps">Please turn on GPS...</string>
+
+    <string name="map_api_key">AIzaSyBbJhCe7k5S4dlW5RCuqgYo0lofWDoSgEY </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
